@@ -56,3 +56,28 @@ integration: Utilizada para os arquivos de testes;
 plugins: Utilizada para arquivos que eu posso criar/editar para modificar ou estender o comportamento interno no Cypress;
 support: Utilizada para arquivos de importação e comandos personalizados que podemos criar dentro do Cypress
 
+Linguagem
+
+```
+Como escrever usando o Gherkin:
+Funcionalidade: <Nome da funcionalidade>
+        <Estória do usuário>
+
+        Cenário: <Nome do cenário>
+                Dado <pré-condição>
+                E <pré-condição>
+                Quando <ação>
+                E <ação>
+                Então <resultado esperado>
+                E <resultado esperado>
+
+```
+Como escrever usando o Gherkin:
+
+Funcionalidade: Login
+        Como proprietário de loja de material de construção, gostaria de efetuar login para verificar os produtos disponíveis na Loja Virtual da Juntos Somos +
+
+        Cenário: Efetuar login com sucesso
+                Dado que estou na home deslogada
+                Quando eu inserir os dados corretos
+                Então devo estar na home logada
