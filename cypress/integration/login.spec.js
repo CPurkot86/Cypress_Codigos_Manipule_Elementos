@@ -4,7 +4,7 @@
 it('deve logar com sucesso',function(){
 
     //acessar uma URL
-    cy.visit('https://training-wheels-protocol.herokuapp.com/login')
+    cy.visit('/login')
 
     //Preencher campos login e senha
     cy.get('#userId').type('stark')

@@ -1,7 +1,7 @@
 /// <reference types ="cypress"/>
 
 it('dev marcar os top 5 filmes da marvel', function(){
-cy.visit('https://training-wheels-protocol.herokuapp.com/checkboxes')
+cy.visit('/checkboxes')
 
 //selecionar mais de um checkbox
 const movies = [

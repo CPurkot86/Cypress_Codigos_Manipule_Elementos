@@ -1,7 +1,7 @@
 /// <reference types ="cypress"/>
 
 it('deve arrastar o cypress para a caixinha no node', function(){
-cy.visit('https://training-wheels-qaninja.herokuapp.com/drag_and_drop')
+cy.visit('/drag_and_drop')
 
 const dataTransfer = new DataTransfer()
 
