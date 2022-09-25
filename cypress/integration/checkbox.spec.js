@@ -1,3 +1,5 @@
+//Manipulando Checkbox
+
 /// <reference types ="cypress"/>
 
 it('dev marcar os top 5 filmes da marvel', function(){

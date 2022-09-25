@@ -1,3 +1,5 @@
+//manipulando Drag And Drop
+
 /// <reference types ="cypress"/>
 
 it('deve arrastar o cypress para a caixinha no node', function(){

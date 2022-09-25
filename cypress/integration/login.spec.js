@@ -1,3 +1,8 @@
+
+//Preenchendo campos de texto
+//Técnicas para buscar e clicar em botões
+//Validando textos
+
 /// <reference types ="cypress"/>
 
 //cenário

@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Purkot86/QA-Ninja-Cypress#readme",
   "dependencies": {
     "cypress": "^9.5.4"
+  },
+  "devDependencies": {
+    "cypress-real-events": "^1.7.1"
   }
 }

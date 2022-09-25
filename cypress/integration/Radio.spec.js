@@ -1,3 +1,5 @@
+//Manipulando Botões de Radio
+
 /// <reference types ="cypress"/>
 
 it('dev marcar thor', function(){

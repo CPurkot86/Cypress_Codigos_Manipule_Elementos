@@ -1,7 +1,11 @@
+//manipulando Ganchos do Cypress
+//Drag And Drop com Ganchos
+
 /// <reference types ="cypress"/>
 
 describe('Suite de Testes', function () {
 
+//gancho
 before(function(){
     cy.log('Aqui temos algo que roda antes de TODOS os testes')
 })
